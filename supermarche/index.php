@@ -1,5 +1,5 @@
 <?php
-   include "config.php";
+   require "config.php";
 
    // Vérifie si $pdo est défini et est une instance valide de PDO
     if (!isset($pdo) || !$pdo instanceof PDO) {
